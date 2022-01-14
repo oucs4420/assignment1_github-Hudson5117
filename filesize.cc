@@ -32,7 +32,7 @@ int main( int argc, char* argv[] )
         {
             while(getline(input, line))
             {
-                cout << line << endl;
+                //cout << line << endl;
                 //getline(input, line);
                 //if(line.length()>0)
                 //if(!input.eof()){

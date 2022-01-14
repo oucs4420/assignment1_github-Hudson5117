@@ -30,14 +30,15 @@ int main( int argc, char* argv[] )
         }
         else
         {
-            while(!input.eof())
+            while(getline(input, line))
             {
-                getline(input, line);
+                cout << line << endl;
+                //getline(input, line);
                 //if(line.length()>0)
-                {
+                //if(!input.eof()){
                     lines++;
                     //cout << "Lines = " << lines << endl;
-                }
+                //}
             }
             cout << " " << argv[arg] << ": " << lines << endl;
         }

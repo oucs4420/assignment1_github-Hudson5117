@@ -40,7 +40,7 @@ int main( int argc, char* argv[] )
                 }
             }
             cout << " " << argv[arg] << ": " << lines;
-            if(arg < argc-1)
+            if(arg < argc)
             {
                 cout << endl;
             }

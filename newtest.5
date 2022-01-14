@@ -30,5 +30,6 @@ $CMD > $TEST.myoutput
 if cmp -s $TEST.correct $TEST.myoutput; then
     echo "PASSES"; exit 0
 else
+    diff $TEST.correct $TEST.myoutput
     echo "FAILS"; exit 99
 fi

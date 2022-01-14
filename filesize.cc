@@ -39,11 +39,7 @@ int main( int argc, char* argv[] )
                     //cout << "Lines = " << lines << endl;
                 }
             }
-            cout << " " << argv[arg] << ": " << lines;
-            if(arg < argc)
-            {
-                cout << endl;
-            }
+            cout << " " << argv[arg] << ": " << lines << endl;
         }
         input.close();
     }
